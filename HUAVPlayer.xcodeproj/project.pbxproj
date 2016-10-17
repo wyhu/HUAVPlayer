@@ -13,6 +13,13 @@
 		6FA97F031DB477330053344C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FA97F011DB477330053344C /* Main.storyboard */; };
 		6FA97F051DB477330053344C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FA97F041DB477330053344C /* Assets.xcassets */; };
 		6FA97F081DB477330053344C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FA97F061DB477330053344C /* LaunchScreen.storyboard */; };
+		6FA97F111DB478660053344C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FA97F101DB478660053344C /* AVFoundation.framework */; };
+		6FA97F141DB479AB0053344C /* MoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA97F131DB479AB0053344C /* MoviePlayerViewController.m */; };
+		6FA97F161DB47B8B0053344C /* chenyifaer.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6FA97F151DB47B8B0053344C /* chenyifaer.mp4 */; };
+		6FA97F191DB498E90053344C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA97F181DB498E90053344C /* MainViewController.m */; };
+		6FCAECD61DB4E83900105578 /* BarrageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCAECD31DB4E83900105578 /* BarrageManager.m */; };
+		6FCAECD71DB4E83900105578 /* BarrageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCAECD51DB4E83900105578 /* BarrageView.m */; };
+		6FCAECD91DB4F20400105578 /* chatBar_colorMore_locationSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FCAECD81DB4F20400105578 /* chatBar_colorMore_locationSelected@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,17 @@
 		6FA97F041DB477330053344C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FA97F071DB477330053344C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6FA97F091DB477330053344C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FA97F101DB478660053344C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6FA97F121DB479AB0053344C /* MoviePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoviePlayerViewController.h; sourceTree = "<group>"; };
+		6FA97F131DB479AB0053344C /* MoviePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviePlayerViewController.m; sourceTree = "<group>"; };
+		6FA97F151DB47B8B0053344C /* chenyifaer.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = chenyifaer.mp4; sourceTree = "<group>"; };
+		6FA97F171DB498E90053344C /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		6FA97F181DB498E90053344C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		6FCAECD21DB4E83900105578 /* BarrageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarrageManager.h; sourceTree = "<group>"; };
+		6FCAECD31DB4E83900105578 /* BarrageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarrageManager.m; sourceTree = "<group>"; };
+		6FCAECD41DB4E83900105578 /* BarrageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarrageView.h; sourceTree = "<group>"; };
+		6FCAECD51DB4E83900105578 /* BarrageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarrageView.m; sourceTree = "<group>"; };
+		6FCAECD81DB4F20400105578 /* chatBar_colorMore_locationSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chatBar_colorMore_locationSelected@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FA97F111DB478660053344C /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +63,7 @@
 			children = (
 				6FA97EF71DB477330053344C /* HUAVPlayer */,
 				6FA97EF61DB477330053344C /* Products */,
+				6FA97F0F1DB478650053344C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +78,16 @@
 		6FA97EF71DB477330053344C /* HUAVPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				6FCAECD81DB4F20400105578 /* chatBar_colorMore_locationSelected@2x.png */,
+				6FA97F151DB47B8B0053344C /* chenyifaer.mp4 */,
 				6FA97EFB1DB477330053344C /* AppDelegate.h */,
 				6FA97EFC1DB477330053344C /* AppDelegate.m */,
 				6FA97EFE1DB477330053344C /* ViewController.h */,
 				6FA97EFF1DB477330053344C /* ViewController.m */,
-				6FA97F011DB477330053344C /* Main.storyboard */,
-				6FA97F041DB477330053344C /* Assets.xcassets */,
-				6FA97F061DB477330053344C /* LaunchScreen.storyboard */,
-				6FA97F091DB477330053344C /* Info.plist */,
+				6FA97F171DB498E90053344C /* MainViewController.h */,
+				6FA97F181DB498E90053344C /* MainViewController.m */,
+				6FA97F121DB479AB0053344C /* MoviePlayerViewController.h */,
+				6FA97F131DB479AB0053344C /* MoviePlayerViewController.m */,
 				6FA97EF81DB477330053344C /* Supporting Files */,
 			);
 			path = HUAVPlayer;
@@ -74,9 +96,33 @@
 		6FA97EF81DB477330053344C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6FCAECD11DB4E83900105578 /* HUBarrage */,
 				6FA97EF91DB477330053344C /* main.m */,
+				6FA97F011DB477330053344C /* Main.storyboard */,
+				6FA97F041DB477330053344C /* Assets.xcassets */,
+				6FA97F061DB477330053344C /* LaunchScreen.storyboard */,
+				6FA97F091DB477330053344C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6FA97F0F1DB478650053344C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FA97F101DB478660053344C /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6FCAECD11DB4E83900105578 /* HUBarrage */ = {
+			isa = PBXGroup;
+			children = (
+				6FCAECD21DB4E83900105578 /* BarrageManager.h */,
+				6FCAECD31DB4E83900105578 /* BarrageManager.m */,
+				6FCAECD41DB4E83900105578 /* BarrageView.h */,
+				6FCAECD51DB4E83900105578 /* BarrageView.m */,
+			);
+			path = HUBarrage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +186,9 @@
 			files = (
 				6FA97F081DB477330053344C /* LaunchScreen.storyboard in Resources */,
 				6FA97F051DB477330053344C /* Assets.xcassets in Resources */,
+				6FCAECD91DB4F20400105578 /* chatBar_colorMore_locationSelected@2x.png in Resources */,
 				6FA97F031DB477330053344C /* Main.storyboard in Resources */,
+				6FA97F161DB47B8B0053344C /* chenyifaer.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,8 +199,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FCAECD61DB4E83900105578 /* BarrageManager.m in Sources */,
 				6FA97F001DB477330053344C /* ViewController.m in Sources */,
 				6FA97EFD1DB477330053344C /* AppDelegate.m in Sources */,
+				6FA97F141DB479AB0053344C /* MoviePlayerViewController.m in Sources */,
+				6FCAECD71DB4E83900105578 /* BarrageView.m in Sources */,
+				6FA97F191DB498E90053344C /* MainViewController.m in Sources */,
 				6FA97EFA1DB477330053344C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +362,7 @@
 				6FA97F0E1DB477330053344C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

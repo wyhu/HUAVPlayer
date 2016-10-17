@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "MoviePlayerViewController.h"
 @interface ViewController ()
 
 @end
@@ -19,6 +19,13 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)playerBtnA:(UIButton *)sender {
+    
+    
+    MoviePlayerViewController *vc = [[MoviePlayerViewController alloc] init];
+    vc.hideViewTime = 5.0;
+    [self presentViewController:vc animated:YES completion:nil];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
