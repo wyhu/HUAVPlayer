@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FA97EFA1DB477330053344C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA97EF91DB477330053344C /* main.m */; };
+		6FA97EFD1DB477330053344C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA97EFC1DB477330053344C /* AppDelegate.m */; };
+		6FA97F001DB477330053344C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA97EFF1DB477330053344C /* ViewController.m */; };
+		6FA97F031DB477330053344C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FA97F011DB477330053344C /* Main.storyboard */; };
+		6FA97F051DB477330053344C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FA97F041DB477330053344C /* Assets.xcassets */; };
+		6FA97F081DB477330053344C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FA97F061DB477330053344C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6FA97EF51DB477330053344C /* HUAVPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HUAVPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FA97EF91DB477330053344C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6FA97EFB1DB477330053344C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6FA97EFC1DB477330053344C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6FA97EFE1DB477330053344C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6FA97EFF1DB477330053344C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6FA97F021DB477330053344C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FA97F041DB477330053344C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FA97F071DB477330053344C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6FA97F091DB477330053344C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FA97EF21DB477330053344C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FA97EEC1DB477330053344C = {
+			isa = PBXGroup;
+			children = (
+				6FA97EF71DB477330053344C /* HUAVPlayer */,
+				6FA97EF61DB477330053344C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FA97EF61DB477330053344C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FA97EF51DB477330053344C /* HUAVPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FA97EF71DB477330053344C /* HUAVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				6FA97EFB1DB477330053344C /* AppDelegate.h */,
+				6FA97EFC1DB477330053344C /* AppDelegate.m */,
+				6FA97EFE1DB477330053344C /* ViewController.h */,
+				6FA97EFF1DB477330053344C /* ViewController.m */,
+				6FA97F011DB477330053344C /* Main.storyboard */,
+				6FA97F041DB477330053344C /* Assets.xcassets */,
+				6FA97F061DB477330053344C /* LaunchScreen.storyboard */,
+				6FA97F091DB477330053344C /* Info.plist */,
+				6FA97EF81DB477330053344C /* Supporting Files */,
+			);
+			path = HUAVPlayer;
+			sourceTree = "<group>";
+		};
+		6FA97EF81DB477330053344C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FA97EF91DB477330053344C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FA97EF41DB477330053344C /* HUAVPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FA97F0C1DB477330053344C /* Build configuration list for PBXNativeTarget "HUAVPlayer" */;
+			buildPhases = (
+				6FA97EF11DB477330053344C /* Sources */,
+				6FA97EF21DB477330053344C /* Frameworks */,
+				6FA97EF31DB477330053344C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HUAVPlayer;
+			productName = HUAVPlayer;
+			productReference = 6FA97EF51DB477330053344C /* HUAVPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FA97EED1DB477330053344C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = 5i5j;
+				TargetAttributes = {
+					6FA97EF41DB477330053344C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 79G8SGGX82;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6FA97EF01DB477330053344C /* Build configuration list for PBXProject "HUAVPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FA97EEC1DB477330053344C;
+			productRefGroup = 6FA97EF61DB477330053344C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FA97EF41DB477330053344C /* HUAVPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FA97EF31DB477330053344C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FA97F081DB477330053344C /* LaunchScreen.storyboard in Resources */,
+				6FA97F051DB477330053344C /* Assets.xcassets in Resources */,
+				6FA97F031DB477330053344C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FA97EF11DB477330053344C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FA97F001DB477330053344C /* ViewController.m in Sources */,
+				6FA97EFD1DB477330053344C /* AppDelegate.m in Sources */,
+				6FA97EFA1DB477330053344C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6FA97F011DB477330053344C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FA97F021DB477330053344C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6FA97F061DB477330053344C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FA97F071DB477330053344C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FA97F0A1DB477330053344C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6FA97F0B1DB477330053344C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FA97F0D1DB477330053344C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 79G8SGGX82;
+				INFOPLIST_FILE = HUAVPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.5i5j.HUAVPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6FA97F0E1DB477330053344C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 79G8SGGX82;
+				INFOPLIST_FILE = HUAVPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.5i5j.HUAVPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FA97EF01DB477330053344C /* Build configuration list for PBXProject "HUAVPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FA97F0A1DB477330053344C /* Debug */,
+				6FA97F0B1DB477330053344C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FA97F0C1DB477330053344C /* Build configuration list for PBXNativeTarget "HUAVPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FA97F0D1DB477330053344C /* Debug */,
+				6FA97F0E1DB477330053344C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FA97EED1DB477330053344C /* Project object */;
+}
