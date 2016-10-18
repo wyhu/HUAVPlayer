@@ -85,10 +85,12 @@
 }
 
 
+/**
+ 视图已经出现时
+
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
-    
 //    NSLog(@"H===%f,-- W===%f",KmainHeight,KmainWidth);
 
 }
