@@ -7,8 +7,12 @@
 //
 
 #import "ViewController.h"
-#import "MoviePlayerViewController.h"
+#import "NormalPlayerViewController.h"
+#import "FullScreenPlayerViewController.h"
+
+
 @interface ViewController ()
+
 
 @end
 
@@ -17,15 +21,54 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+
 }
+
+
 
 - (IBAction)playerBtnA:(UIButton *)sender {
     
+    switch (sender.tag) {
+        case 200:
+        {
+            NormalPlayerViewController *normalVC = [[NormalPlayerViewController alloc] init];
+            NSURL *url = [[NSBundle mainBundle] URLForResource:@"chenyifaer" withExtension:@"mp4"];
+            normalVC.url = url;
+            [self.navigationController pushViewController:normalVC animated:YES];
+//            return;
+//            
+//            
+//            MoviePlayerViewController *vc = [[MoviePlayerViewController alloc] init];
+//            vc.hideViewTime = 5.0;
+//            [self presentViewController:vc animated:YES completion:nil];
+        }
+            break;
+        case 201:
+        {
+//            FullScreenViewController *fullVC = [[FullScreenViewController alloc] init];
+//            
+//            fullVC.modalPresentationStyle = UIModalPresentationFullScreen;
+//            
+//            fullVC.playerLayer = _playerLayer;
+//            
+//            fullVC.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+//         
+//            
+//            [self presentViewController:fullVC animated:YES completion:nil];
+
+            
+        }
+            break;
+
+            
+        default:
+            break;
+    }
     
-    MoviePlayerViewController *vc = [[MoviePlayerViewController alloc] init];
-    vc.hideViewTime = 5.0;
-    [self presentViewController:vc animated:YES completion:nil];
+    
+
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

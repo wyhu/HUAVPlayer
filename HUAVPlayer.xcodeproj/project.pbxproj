@@ -14,15 +14,35 @@
 		6FA97F051DB477330053344C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FA97F041DB477330053344C /* Assets.xcassets */; };
 		6FA97F081DB477330053344C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FA97F061DB477330053344C /* LaunchScreen.storyboard */; };
 		6FA97F111DB478660053344C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FA97F101DB478660053344C /* AVFoundation.framework */; };
-		6FA97F141DB479AB0053344C /* MoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA97F131DB479AB0053344C /* MoviePlayerViewController.m */; };
 		6FA97F161DB47B8B0053344C /* chenyifaer.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6FA97F151DB47B8B0053344C /* chenyifaer.mp4 */; };
 		6FA97F191DB498E90053344C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA97F181DB498E90053344C /* MainViewController.m */; };
+		6FC105B61DB5D19800E77E76 /* captureScreen_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FC105A71DB5D19800E77E76 /* captureScreen_n@2x.png */; };
+		6FC105B71DB5D19800E77E76 /* captureScreen_n@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FC105A81DB5D19800E77E76 /* captureScreen_n@3x.png */; };
+		6FC105B81DB5D19800E77E76 /* captureScreen_s@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FC105A91DB5D19800E77E76 /* captureScreen_s@2x.png */; };
+		6FC105B91DB5D19800E77E76 /* captureScreen_s@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FC105AA1DB5D19800E77E76 /* captureScreen_s@3x.png */; };
+		6FC105BA1DB5D19800E77E76 /* embedPlayerRecommendplay@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FC105AB1DB5D19800E77E76 /* embedPlayerRecommendplay@3x.png */; };
+		6FC105BB1DB5D19800E77E76 /* gamecenter_point@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FC105AC1DB5D19800E77E76 /* gamecenter_point@2x.png */; };
+		6FC105BC1DB5D19800E77E76 /* gamecenter_point@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FC105AD1DB5D19800E77E76 /* gamecenter_point@3x.png */; };
+		6FC105BD1DB5D19800E77E76 /* player_icon_lock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FC105AE1DB5D19800E77E76 /* player_icon_lock@2x.png */; };
+		6FC105BE1DB5D19800E77E76 /* player_icon_lock@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FC105AF1DB5D19800E77E76 /* player_icon_lock@3x.png */; };
+		6FC105BF1DB5D19800E77E76 /* player_icon_unlock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FC105B01DB5D19800E77E76 /* player_icon_unlock@2x.png */; };
+		6FC105C01DB5D19800E77E76 /* player_icon_unlock@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FC105B11DB5D19800E77E76 /* player_icon_unlock@3x.png */; };
+		6FC105C11DB5D19800E77E76 /* player_pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FC105B21DB5D19800E77E76 /* player_pause.png */; };
+		6FC105C21DB5D19800E77E76 /* player_pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FC105B31DB5D19800E77E76 /* player_pause@2x.png */; };
+		6FC105C31DB5D19800E77E76 /* player_play.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FC105B41DB5D19800E77E76 /* player_play.png */; };
+		6FC105C41DB5D19800E77E76 /* player_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FC105B51DB5D19800E77E76 /* player_play@2x.png */; };
+		6FC105C71DB5D23800E77E76 /* NormalPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC105C61DB5D23800E77E76 /* NormalPlayerViewController.m */; };
+		6FC105CA1DB5D24D00E77E76 /* FullScreenPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC105C91DB5D24D00E77E76 /* FullScreenPlayerViewController.m */; };
+		6FC105CD1DB5D7F900E77E76 /* collection_topbar_icon_back_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FC105CB1DB5D7F900E77E76 /* collection_topbar_icon_back_pressed@2x.png */; };
+		6FC105CE1DB5D7F900E77E76 /* collection_topbar_icon_back_pressed@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FC105CC1DB5D7F900E77E76 /* collection_topbar_icon_back_pressed@3x.png */; };
 		6FCAECD61DB4E83900105578 /* BarrageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCAECD31DB4E83900105578 /* BarrageManager.m */; };
 		6FCAECD71DB4E83900105578 /* BarrageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCAECD51DB4E83900105578 /* BarrageView.m */; };
 		6FCAECD91DB4F20400105578 /* chatBar_colorMore_locationSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FCAECD81DB4F20400105578 /* chatBar_colorMore_locationSelected@2x.png */; };
+		FC014EF22E09B98FC23D3BA8 /* libPods-HUAVPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C03BCB2E96B49BC05B53C27B /* libPods-HUAVPlayer.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A513924D564EDF31D0D1C09 /* Pods-HUAVPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HUAVPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-HUAVPlayer/Pods-HUAVPlayer.release.xcconfig"; sourceTree = "<group>"; };
 		6FA97EF51DB477330053344C /* HUAVPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HUAVPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FA97EF91DB477330053344C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6FA97EFB1DB477330053344C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -34,16 +54,37 @@
 		6FA97F071DB477330053344C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6FA97F091DB477330053344C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FA97F101DB478660053344C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		6FA97F121DB479AB0053344C /* MoviePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoviePlayerViewController.h; sourceTree = "<group>"; };
-		6FA97F131DB479AB0053344C /* MoviePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviePlayerViewController.m; sourceTree = "<group>"; };
 		6FA97F151DB47B8B0053344C /* chenyifaer.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = chenyifaer.mp4; sourceTree = "<group>"; };
 		6FA97F171DB498E90053344C /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		6FA97F181DB498E90053344C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		6FC105A71DB5D19800E77E76 /* captureScreen_n@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "captureScreen_n@2x.png"; sourceTree = "<group>"; };
+		6FC105A81DB5D19800E77E76 /* captureScreen_n@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "captureScreen_n@3x.png"; sourceTree = "<group>"; };
+		6FC105A91DB5D19800E77E76 /* captureScreen_s@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "captureScreen_s@2x.png"; sourceTree = "<group>"; };
+		6FC105AA1DB5D19800E77E76 /* captureScreen_s@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "captureScreen_s@3x.png"; sourceTree = "<group>"; };
+		6FC105AB1DB5D19800E77E76 /* embedPlayerRecommendplay@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "embedPlayerRecommendplay@3x.png"; sourceTree = "<group>"; };
+		6FC105AC1DB5D19800E77E76 /* gamecenter_point@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gamecenter_point@2x.png"; sourceTree = "<group>"; };
+		6FC105AD1DB5D19800E77E76 /* gamecenter_point@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gamecenter_point@3x.png"; sourceTree = "<group>"; };
+		6FC105AE1DB5D19800E77E76 /* player_icon_lock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_icon_lock@2x.png"; sourceTree = "<group>"; };
+		6FC105AF1DB5D19800E77E76 /* player_icon_lock@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_icon_lock@3x.png"; sourceTree = "<group>"; };
+		6FC105B01DB5D19800E77E76 /* player_icon_unlock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_icon_unlock@2x.png"; sourceTree = "<group>"; };
+		6FC105B11DB5D19800E77E76 /* player_icon_unlock@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_icon_unlock@3x.png"; sourceTree = "<group>"; };
+		6FC105B21DB5D19800E77E76 /* player_pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player_pause.png; sourceTree = "<group>"; };
+		6FC105B31DB5D19800E77E76 /* player_pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_pause@2x.png"; sourceTree = "<group>"; };
+		6FC105B41DB5D19800E77E76 /* player_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player_play.png; sourceTree = "<group>"; };
+		6FC105B51DB5D19800E77E76 /* player_play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_play@2x.png"; sourceTree = "<group>"; };
+		6FC105C51DB5D23800E77E76 /* NormalPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalPlayerViewController.h; sourceTree = "<group>"; };
+		6FC105C61DB5D23800E77E76 /* NormalPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalPlayerViewController.m; sourceTree = "<group>"; };
+		6FC105C81DB5D24D00E77E76 /* FullScreenPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullScreenPlayerViewController.h; sourceTree = "<group>"; };
+		6FC105C91DB5D24D00E77E76 /* FullScreenPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullScreenPlayerViewController.m; sourceTree = "<group>"; };
+		6FC105CB1DB5D7F900E77E76 /* collection_topbar_icon_back_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "collection_topbar_icon_back_pressed@2x.png"; sourceTree = "<group>"; };
+		6FC105CC1DB5D7F900E77E76 /* collection_topbar_icon_back_pressed@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "collection_topbar_icon_back_pressed@3x.png"; sourceTree = "<group>"; };
 		6FCAECD21DB4E83900105578 /* BarrageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarrageManager.h; sourceTree = "<group>"; };
 		6FCAECD31DB4E83900105578 /* BarrageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarrageManager.m; sourceTree = "<group>"; };
 		6FCAECD41DB4E83900105578 /* BarrageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarrageView.h; sourceTree = "<group>"; };
 		6FCAECD51DB4E83900105578 /* BarrageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarrageView.m; sourceTree = "<group>"; };
 		6FCAECD81DB4F20400105578 /* chatBar_colorMore_locationSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chatBar_colorMore_locationSelected@2x.png"; sourceTree = "<group>"; };
+		C03BCB2E96B49BC05B53C27B /* libPods-HUAVPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HUAVPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5D8194F9B852DAA00235CE8 /* Pods-HUAVPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HUAVPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HUAVPlayer/Pods-HUAVPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +93,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FA97F111DB478660053344C /* AVFoundation.framework in Frameworks */,
+				FC014EF22E09B98FC23D3BA8 /* libPods-HUAVPlayer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +106,7 @@
 				6FA97EF71DB477330053344C /* HUAVPlayer */,
 				6FA97EF61DB477330053344C /* Products */,
 				6FA97F0F1DB478650053344C /* Frameworks */,
+				ABF32C0F4631004D7ED5ABC4 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,16 +121,14 @@
 		6FA97EF71DB477330053344C /* HUAVPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				6FC105A51DB5D13E00E77E76 /* HUAVPlayer */,
+				6FCAECD11DB4E83900105578 /* HUBarrage */,
 				6FCAECD81DB4F20400105578 /* chatBar_colorMore_locationSelected@2x.png */,
 				6FA97F151DB47B8B0053344C /* chenyifaer.mp4 */,
-				6FA97EFB1DB477330053344C /* AppDelegate.h */,
-				6FA97EFC1DB477330053344C /* AppDelegate.m */,
 				6FA97EFE1DB477330053344C /* ViewController.h */,
 				6FA97EFF1DB477330053344C /* ViewController.m */,
 				6FA97F171DB498E90053344C /* MainViewController.h */,
 				6FA97F181DB498E90053344C /* MainViewController.m */,
-				6FA97F121DB479AB0053344C /* MoviePlayerViewController.h */,
-				6FA97F131DB479AB0053344C /* MoviePlayerViewController.m */,
 				6FA97EF81DB477330053344C /* Supporting Files */,
 			);
 			path = HUAVPlayer;
@@ -96,7 +137,8 @@
 		6FA97EF81DB477330053344C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6FCAECD11DB4E83900105578 /* HUBarrage */,
+				6FA97EFB1DB477330053344C /* AppDelegate.h */,
+				6FA97EFC1DB477330053344C /* AppDelegate.m */,
 				6FA97EF91DB477330053344C /* main.m */,
 				6FA97F011DB477330053344C /* Main.storyboard */,
 				6FA97F041DB477330053344C /* Assets.xcassets */,
@@ -110,8 +152,45 @@
 			isa = PBXGroup;
 			children = (
 				6FA97F101DB478660053344C /* AVFoundation.framework */,
+				C03BCB2E96B49BC05B53C27B /* libPods-HUAVPlayer.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6FC105A51DB5D13E00E77E76 /* HUAVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				6FC105A61DB5D19800E77E76 /* 资源文件 */,
+				6FC105C51DB5D23800E77E76 /* NormalPlayerViewController.h */,
+				6FC105C61DB5D23800E77E76 /* NormalPlayerViewController.m */,
+				6FC105C81DB5D24D00E77E76 /* FullScreenPlayerViewController.h */,
+				6FC105C91DB5D24D00E77E76 /* FullScreenPlayerViewController.m */,
+			);
+			path = HUAVPlayer;
+			sourceTree = "<group>";
+		};
+		6FC105A61DB5D19800E77E76 /* 资源文件 */ = {
+			isa = PBXGroup;
+			children = (
+				6FC105CB1DB5D7F900E77E76 /* collection_topbar_icon_back_pressed@2x.png */,
+				6FC105CC1DB5D7F900E77E76 /* collection_topbar_icon_back_pressed@3x.png */,
+				6FC105A71DB5D19800E77E76 /* captureScreen_n@2x.png */,
+				6FC105A81DB5D19800E77E76 /* captureScreen_n@3x.png */,
+				6FC105A91DB5D19800E77E76 /* captureScreen_s@2x.png */,
+				6FC105AA1DB5D19800E77E76 /* captureScreen_s@3x.png */,
+				6FC105AB1DB5D19800E77E76 /* embedPlayerRecommendplay@3x.png */,
+				6FC105AC1DB5D19800E77E76 /* gamecenter_point@2x.png */,
+				6FC105AD1DB5D19800E77E76 /* gamecenter_point@3x.png */,
+				6FC105AE1DB5D19800E77E76 /* player_icon_lock@2x.png */,
+				6FC105AF1DB5D19800E77E76 /* player_icon_lock@3x.png */,
+				6FC105B01DB5D19800E77E76 /* player_icon_unlock@2x.png */,
+				6FC105B11DB5D19800E77E76 /* player_icon_unlock@3x.png */,
+				6FC105B21DB5D19800E77E76 /* player_pause.png */,
+				6FC105B31DB5D19800E77E76 /* player_pause@2x.png */,
+				6FC105B41DB5D19800E77E76 /* player_play.png */,
+				6FC105B51DB5D19800E77E76 /* player_play@2x.png */,
+			);
+			path = "资源文件";
 			sourceTree = "<group>";
 		};
 		6FCAECD11DB4E83900105578 /* HUBarrage */ = {
@@ -125,6 +204,15 @@
 			path = HUBarrage;
 			sourceTree = "<group>";
 		};
+		ABF32C0F4631004D7ED5ABC4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5D8194F9B852DAA00235CE8 /* Pods-HUAVPlayer.debug.xcconfig */,
+				2A513924D564EDF31D0D1C09 /* Pods-HUAVPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6FA97F0C1DB477330053344C /* Build configuration list for PBXNativeTarget "HUAVPlayer" */;
 			buildPhases = (
+				D6BDF0CA98AC7124F3175912 /* [CP] Check Pods Manifest.lock */,
 				6FA97EF11DB477330053344C /* Sources */,
 				6FA97EF21DB477330053344C /* Frameworks */,
 				6FA97EF31DB477330053344C /* Resources */,
+				03AD1DE90547FCF199BAD5E5 /* [CP] Embed Pods Frameworks */,
+				BF3A383E5B5BFD68DEDAB14B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,7 +247,7 @@
 				TargetAttributes = {
 					6FA97EF41DB477330053344C = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 79G8SGGX82;
+						DevelopmentTeam = FBJL2VXGK3;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -184,28 +275,94 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FC105BE1DB5D19800E77E76 /* player_icon_lock@3x.png in Resources */,
+				6FC105C11DB5D19800E77E76 /* player_pause.png in Resources */,
+				6FC105C31DB5D19800E77E76 /* player_play.png in Resources */,
+				6FC105B91DB5D19800E77E76 /* captureScreen_s@3x.png in Resources */,
+				6FC105BC1DB5D19800E77E76 /* gamecenter_point@3x.png in Resources */,
+				6FC105C41DB5D19800E77E76 /* player_play@2x.png in Resources */,
+				6FC105C21DB5D19800E77E76 /* player_pause@2x.png in Resources */,
+				6FC105B61DB5D19800E77E76 /* captureScreen_n@2x.png in Resources */,
+				6FC105B81DB5D19800E77E76 /* captureScreen_s@2x.png in Resources */,
 				6FA97F081DB477330053344C /* LaunchScreen.storyboard in Resources */,
 				6FA97F051DB477330053344C /* Assets.xcassets in Resources */,
+				6FC105C01DB5D19800E77E76 /* player_icon_unlock@3x.png in Resources */,
+				6FC105BA1DB5D19800E77E76 /* embedPlayerRecommendplay@3x.png in Resources */,
 				6FCAECD91DB4F20400105578 /* chatBar_colorMore_locationSelected@2x.png in Resources */,
+				6FC105CE1DB5D7F900E77E76 /* collection_topbar_icon_back_pressed@3x.png in Resources */,
+				6FC105B71DB5D19800E77E76 /* captureScreen_n@3x.png in Resources */,
+				6FC105BF1DB5D19800E77E76 /* player_icon_unlock@2x.png in Resources */,
 				6FA97F031DB477330053344C /* Main.storyboard in Resources */,
+				6FC105CD1DB5D7F900E77E76 /* collection_topbar_icon_back_pressed@2x.png in Resources */,
+				6FC105BD1DB5D19800E77E76 /* player_icon_lock@2x.png in Resources */,
+				6FC105BB1DB5D19800E77E76 /* gamecenter_point@2x.png in Resources */,
 				6FA97F161DB47B8B0053344C /* chenyifaer.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03AD1DE90547FCF199BAD5E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HUAVPlayer/Pods-HUAVPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF3A383E5B5BFD68DEDAB14B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HUAVPlayer/Pods-HUAVPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6BDF0CA98AC7124F3175912 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6FA97EF11DB477330053344C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FC105CA1DB5D24D00E77E76 /* FullScreenPlayerViewController.m in Sources */,
 				6FCAECD61DB4E83900105578 /* BarrageManager.m in Sources */,
 				6FA97F001DB477330053344C /* ViewController.m in Sources */,
 				6FA97EFD1DB477330053344C /* AppDelegate.m in Sources */,
-				6FA97F141DB479AB0053344C /* MoviePlayerViewController.m in Sources */,
 				6FCAECD71DB4E83900105578 /* BarrageView.m in Sources */,
 				6FA97F191DB498E90053344C /* MainViewController.m in Sources */,
 				6FA97EFA1DB477330053344C /* main.m in Sources */,
+				6FC105C71DB5D23800E77E76 /* NormalPlayerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,24 +478,26 @@
 		};
 		6FA97F0D1DB477330053344C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5D8194F9B852DAA00235CE8 /* Pods-HUAVPlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 79G8SGGX82;
+				DEVELOPMENT_TEAM = FBJL2VXGK3;
 				INFOPLIST_FILE = HUAVPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.5i5j.HUAVPlayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiangyu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		6FA97F0E1DB477330053344C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A513924D564EDF31D0D1C09 /* Pods-HUAVPlayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 79G8SGGX82;
+				DEVELOPMENT_TEAM = FBJL2VXGK3;
 				INFOPLIST_FILE = HUAVPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.5i5j.HUAVPlayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiangyu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

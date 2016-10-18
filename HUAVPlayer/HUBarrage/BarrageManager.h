@@ -16,6 +16,8 @@ typedef void(^generateViewBlock)(BarrageView *view);
 
 @interface BarrageManager : NSObject
 
+//数据源
+@property (nonatomic, strong) NSMutableArray *dataSource;
 
 //用户姓名
 @property (nonatomic, copy) NSString *userName;

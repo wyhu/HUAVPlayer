@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q1z-CD-vX6">
+                            <button opaque="NO" tag="200" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q1z-CD-vX6">
                                 <color key="backgroundColor" red="1" green="0.62352941179999999" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="Y1b-2m-IJA"/>
@@ -28,12 +28,29 @@
                                     <action selector="playerBtnA:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gHG-VB-S1L"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" tag="201" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0PO-WU-wpB">
+                                <color key="backgroundColor" red="1" green="0.62352941179999999" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="103" id="FXd-L4-PVk"/>
+                                    <constraint firstAttribute="height" constant="30" id="Mv6-wY-zZ7"/>
+                                </constraints>
+                                <state key="normal" title="全屏"/>
+                                <connections>
+                                    <action selector="playerBtnA:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5cK-3l-SjK"/>
+                                </connections>
+                            </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cub-Nw-hjn">
+                                <frame key="frameInset" minX="229" minY="515" width="51" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Q1z-CD-vX6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="136" id="I0E-tg-3CG"/>
-                            <constraint firstItem="Q1z-CD-vX6" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="45" id="d7G-xE-KiU"/>
-                            <constraint firstAttribute="trailing" secondItem="Q1z-CD-vX6" secondAttribute="trailing" constant="136" id="fC9-m5-34u"/>
+                            <constraint firstItem="0PO-WU-wpB" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="313" id="D17-Nm-9dj"/>
+                            <constraint firstItem="Q1z-CD-vX6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="42" id="I0E-tg-3CG"/>
+                            <constraint firstAttribute="trailing" secondItem="0PO-WU-wpB" secondAttribute="trailing" constant="43" id="IRb-vH-2v1"/>
+                            <constraint firstItem="Q1z-CD-vX6" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="313" id="d7G-xE-KiU"/>
+                            <constraint firstAttribute="trailing" secondItem="Q1z-CD-vX6" secondAttribute="trailing" constant="230" id="fC9-m5-34u"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ylI-20-yKP"/>

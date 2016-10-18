@@ -1,0 +1,11 @@
+def pods
+pod 'MBProgressHUD'
+pod 'Masonry'
+pod 'AFNetworking', '~> 3.0’
+end
+target ‘HUAVPlayer’ do
+pods
+end
+
+
+

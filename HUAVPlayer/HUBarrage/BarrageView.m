@@ -31,7 +31,7 @@
     
     
     if (self =[super init]) {
-        self.backgroundColor = [UIColor clearColor];
+        self.userInteractionEnabled = NO;
         //计算内容宽度
         NSDictionary *attr = @{NSFontAttributeName: [UIFont systemFontOfSize:14]};
         
@@ -40,17 +40,17 @@
         
         self.lbCommet.text = comment;
         
-        self.lbCommet.frame = CGRectMake(padding  + 60, 30, width, 30);
+        self.lbCommet.frame = CGRectMake(padding  + 35, 0, width, 30);
         
         self.lbCommet.text = comment;
         
-        self.headImgView.frame = CGRectMake(padding, 0, 60, 60);
+        self.headImgView.frame = CGRectMake(0, 0, 30, 30);
         
         self.userNmae.backgroundColor = [UIColor yellowColor];
         
-        self.userNmae.frame = CGRectMake(padding  + 60, 0, width, 30);
+        self.userNmae.frame = CGRectMake(padding  + 20, 0, width, 30);
         
-        self.lbCommet.backgroundColor = [UIColor greenColor];
+        self.lbCommet.backgroundColor = [UIColor clearColor];
         
         //弹幕所在view的frame
     
@@ -136,7 +136,7 @@
         
         _lbCommet.font = [UIFont systemFontOfSize:14];
         
-        _lbCommet.textColor = [UIColor blackColor];
+        _lbCommet.textColor = [UIColor whiteColor];
         
         _lbCommet.textAlignment = NSTextAlignmentCenter;
         
@@ -160,7 +160,7 @@
         
         _userNmae.textAlignment = NSTextAlignmentCenter;
         
-        [self addSubview:_userNmae];
+//        [self addSubview:_userNmae];
         
     }
     
@@ -178,7 +178,7 @@
         
         _headImgView.layer.cornerRadius = 30;
         
-        _headImgView.image = [UIImage imageNamed:@"chatBar_colorMore_locationSelected"];
+        _headImgView.image = [UIImage imageNamed:@"player_play.png"];
         
         [self addSubview:_headImgView];
     }
