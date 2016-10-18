@@ -627,17 +627,15 @@
 
 
 - (void)addBarageView:(BarrageView *)sview {
-    
+     
     sview.frame = CGRectMake(KmainWidth,15 + sview.trajectory * 40 , CGRectGetWidth(sview.bounds), 30);
     sview.backgroundColor = [UIColor lightGrayColor];
     sview.alpha = self.barAlpage;
     [self.view addSubview:sview];
     [self.view insertSubview:sview belowSubview:self.setView];
-    
     [sview startAnimation];
     
 }
-
 
 #pragma mark 滑动条相关
 //按住滑块
