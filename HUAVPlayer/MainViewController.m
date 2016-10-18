@@ -19,7 +19,7 @@
     // Do any additional setup after loading the view.
 }
 
-//允许横屏旋转
+//允许横屏旋转hhah
 - (BOOL)shouldAutorotate{
     return NO;
 }
