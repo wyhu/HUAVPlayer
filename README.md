@@ -14,3 +14,8 @@
 #####用法：
 给一个视频的url地址即可！
 
+#####界面：
+[图片](https://github.com/wyhu/HUAVPlayer/blob/master/conteGif.gif)
+![图片](https://github.com/wyhu/HUAVPlayer/blob/master/conteGif.gif)
+
+
